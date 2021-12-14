@@ -1,4 +1,4 @@
-Customer responsibility:
+Customer responsibility: 
 
 Adequate hardware for the attendees.  
 List of the Attendees, E-Mail Address, Role (i.e. sysadmin, developer, etc).
