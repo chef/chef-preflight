@@ -21,9 +21,9 @@ $sites = @(
 )
 
 $urls = @(
-	'https://downloads.chef.io/chef-dk/',
+	'https://chef.io/downloads/tools/workstation/',
 	'https://www.virtualbox.org/wiki/Downloads',
-	'https://www.vagrantup.com/downloads.html'
+	'https://www.vagrantup.com/downloads'
 )
 
 $ports = @(
