@@ -32,7 +32,7 @@ Workstation:
 
 Items necessary:
 
-* chefDK
+* Chef Workstation
 * Required Gems?  (Knife-windows, knife-push, etc)
 
 Items recommended
@@ -56,7 +56,7 @@ Verify ssh connectivity to:
 Recommended tests:
 * Seth Vargo’s Connectivity Tester: https://github.com/sethvargo/chef-connectivity-test _base upon the outcome of these tests, not actually run this script itself_
 
-* Download and install ChefDK
+* Download and install Chef Workstation
 * Download starter kit from Hosted Chef.
 * run: knife client list
 * run chef gem install knife-push
