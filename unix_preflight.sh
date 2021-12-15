@@ -3,7 +3,7 @@
 # vim: ai ts=2 sw=2 et sts=2 ft=sh
 # vim: autoindent tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=sh
 
-# Prerequisites:  
+# Prerequisites:
 # CentOS:  bind-utils, nc
 # Ubuntu:  dnsutils, netcat
 
@@ -45,7 +45,7 @@ sites=(\
 )
 
 urls=(\
-  https:\/\/downloads.chef.io\/chef-dk\/ \
+  https:\/\/chef.io\/downloads\/tools\/workstation\/ \
   https:\/\/www.virtualbox.org\/wiki/Downloads \
   https:\/\/www.vagrantup.com\/downloads.html
 )
@@ -53,7 +53,7 @@ urls=(\
 echo
 echo "###############################################################################"
 echo "Testing DNS resolvers..."
-echo 
+echo
 col=40
 for site in ${sites[*]}; do
   #dig $site 2>&1 >/dev/null
@@ -68,7 +68,7 @@ done
 echo
 echo "###############################################################################"
 echo "Checking connectivity to Internet sites..."
-echo 
+echo
 
 col=40
 for site in ${sites[*]}; do
@@ -101,7 +101,7 @@ ports=(\
 echo
 echo "###############################################################################"
 echo "Checking outgoing SSH and RDP ports..."
-echo 
+echo
 
 col=40
 for port in ${ports[*]}; do
@@ -112,4 +112,3 @@ for port in ${ports[*]}; do
     printf '%-50s%*s%s\n' "Checking port $port" $col "${red}[FAIL]${normal}"
   fi
 done
-
